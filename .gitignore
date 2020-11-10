@@ -64,7 +64,7 @@ lib/dartin_module.dart
 lib/design.dart
 lib/other.dart
 lib/providers.dart
-
+lib/extensions
 assets/
 images/
 # Project exclude paths
