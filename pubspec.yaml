@@ -18,7 +18,7 @@ description: A new flutter module project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
@@ -39,7 +39,10 @@ dependencies:
   dartin: ^0.1.0
   #  webviewpopupauth:
   #    path: ../flutter_win_webview\webview_popupauth
-  webview_flutter:  ^1.0.5
+#  webview_flutter:  ^1.0.5
+  web_view_open:
+    git:
+      url: https://gitee.com/Tokra/web_view_open.git
 
 dev_dependencies:
   flutter_test:

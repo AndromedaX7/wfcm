@@ -35,6 +35,8 @@ Widget dispatchRoute(){
       return App();
     case "/settings":
       return AppWrapper( SettingsPage());
+    default:
+      return App();
   }
 }
 
