@@ -6,6 +6,8 @@ import 'package:worldfunclub/design.dart';
 import 'package:worldfunclub/settings/settings_page.dart';
 import 'package:worldfunclub/ui/main_page.dart';
 
+import 'home/mine/mine_page.dart';
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   initDartIn();
@@ -31,10 +33,11 @@ class App extends StatelessWidget {
 
 Widget dispatchRoute(){
   switch(window.defaultRouteName){
-    case "/":
-      return App();
+
     case "/settings":
       return AppWrapper( SettingsPage());
+    case "/mine":
+      return AppWrapper( MinePage());
     default:
       return App();
   }
